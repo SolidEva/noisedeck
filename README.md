@@ -134,4 +134,28 @@ usbA splitter:
 
 
 
+## v2
 
+the 3d printed case is good, but the ipad on its own is a lousy computer. i want it around for logic pro and drawing, but otherwise i want it to be a linux machine.
+
+options i have explored are:
+
+1) remove the ipad, take a macbook screen & logic board and design a noisedeck around them.
+    - this gets me a "real" computer, but is quite difficult to pull off
+        - the hardest part is always
+    - no more ipad, which means it can't be used for drawing/reading/tablet things
+
+2) use the ipad as a remote desktop/vnc display for some SBC
+    - battery management is annoying, would have to manage the SBC and ipad battery levels
+    - rootfs encryption gets funny when a vnc server is required to get display
+        - could work around this with ssh decryption, or even stick a light vnc server in the initramfs?
+        - or just do it by feel & have ssh available for debug?
+    - user login also gets funny, but i could also either do this by feel/ssh for debug or just auto start sway
+    - create a headless display in the sway config with the ipad res, run `swaymsg create_output`
+    - run wayvnc like `wayvnc 0.0.0.0 --render-cursor --disable-input --max-fps=60 --output=HEADLESS-1`
+    - use manual local ethernet connection between the two
+
+3) use the ipad as a display via an HDMI capture card!
+    - use something like orion (by lux) (other options available)
+    - this limits the ipad to be just a display, uses standard display tech! no special software on the SBC required
+    - need to be aware of input lag (hopefull minimal?)
