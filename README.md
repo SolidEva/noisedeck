@@ -158,4 +158,15 @@ options i have explored are:
 3) use the ipad as a display via an HDMI capture card!
     - use something like orion (by lux) (other options available)
     - this limits the ipad to be just a display, uses standard display tech! no special software on the SBC required
-    - need to be aware of input lag (hopefull minimal?)
+    - need to be aware of input lag (hopefully minimal?)
+
+## Battery
+
+- need some way to get 12v for the board
+- not a lot of room in the palmrest for a battery
+- could fit 1x 18650?
+    - need something like https://www.aliexpress.us/item/3256810401027521.html
+    - https://www.amazon.de/-/en/Kuulaa-Powerbank-External-Battery-Compact/dp/B0GC6J7VTJ does 12v allegedly
+- could have an expanded battery pack on the back behind the hinge?
+    - 3x 18650s?
+- adafruit has https://www.adafruit.com/product/5450 which is a usbc pd to 12v dc barel jack
