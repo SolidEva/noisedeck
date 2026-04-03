@@ -160,7 +160,7 @@ options i have explored are:
     - this limits the ipad to be just a display, uses standard display tech! no special software on the SBC required
     - need to be aware of input lag (hopefully minimal?)
 
-## Battery
+## Battery - TODO
 
 - need some way to get 12v for the board
 - not a lot of room in the palmrest for a battery
@@ -170,3 +170,7 @@ options i have explored are:
 - could have an expanded battery pack on the back behind the hinge?
     - 3x 18650s?
 - adafruit has https://www.adafruit.com/product/5450 which is a usbc pd to 12v dc barel jack
+
+## Cooling - TODO
+- long, thin cooler that spans most of the width of the case?
+    - small fan?
