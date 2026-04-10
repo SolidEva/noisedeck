@@ -174,3 +174,7 @@ options i have explored are:
 ## Cooling - TODO
 - long, thin cooler that spans most of the width of the case?
     - small fan?
+    - heatsink options
+        - if it doesn't go over the pencil charging area: max size is 6.87 tall, 53mm wide, ~160mm long (variable)
+            - https://www.digikey.de/en/products/detail/fischer-elektronik/SK-511-100-SA/25830853 6mm tall, 100mm long, 45 mm wide
+        - if it does (we could thin out the bottom of the pencil charger): 6.87 tall, 67mm tall, ~160mm long
