@@ -163,6 +163,7 @@ options i have explored are:
 ## Battery - TODO
 
 - need some way to get 12v for the board
+    - actually supports 9V~24V wide voltage input!
 - not a lot of room in the palmrest for a battery
 - could fit 1x 18650?
     - need something like https://www.aliexpress.us/item/3256810401027521.html
@@ -171,12 +172,38 @@ options i have explored are:
     - 3x 18650s?
 - adafruit has https://www.adafruit.com/product/5450 which is a usbc pd to 12v dc barel jack
 
+PLAN:
+- 3x 18650s
+- need a 3s BMS
+- need a way to get 12v to the BMS
+- want to be able to plug any usbc charger in, and be able to charge quickly
+- so we need a buck/boost usbc that outputs 12v
+    - IP2368 https://old.reddit.com/r/18650masterrace/comments/1euw3zc/ip2368_breakout_board_external_power_output_not/
+
+- so the schematic is cells --> BMS <----> ip2368
+                                       |
+                                    controller
+
+- TODO can we fit an IP2368 board in the palmrest?
+
+- could use something like this
+    - https://www.aliexpress.us/item/3256805900941544.html?gatewayAdapt=glo2usa4itemAdapt#nav-specification
+    - but it only does boost, no buck
+    - aparently this doesnt work correctly
+
 ## Cooling - TODO
 - long, thin cooler that spans most of the width of the case?
-    - small fan?
+    - fan
+        - tip for fan control https://github.com/Joshua-Riek/ubuntu-rockchip/discussions/558
+        - these 2 are nearly identical
+            - https://www.digikey.com/en/products/detail/sunon-fans/4548HQ-EG50040S1-CG61-S9A/12685816
+            - https://www.digikey.de/en/products/detail/wakefield-thermal-solutions/DB0620505H1A-BT0/12610355
+                - but this one is in stock
+                - WENT WITH THIS
+        - TODO: add slots to topcase lower to feed the blower fan
     - heatsink options
         - if it doesn't go over the pencil charging area: max size is 6.87 tall, 53mm wide, ~160mm long (variable)
             - https://www.digikey.de/en/products/detail/fischer-elektronik/SK-511-100-SA/25830853 6mm tall, 100mm long, 45 mm wide
         - if it does (we could thin out the bottom of the pencil charger): 6.87 tall, 67mm tall, ~160mm long
+            - WENT WITH THIS
             - https://www.digikey.de/en/products/detail/advanced-thermal-solutions-inc/ATS-1108-C1-R0/4146489
-            - or others?
