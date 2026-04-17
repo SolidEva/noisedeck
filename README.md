@@ -173,12 +173,14 @@ options i have explored are:
 - adafruit has https://www.adafruit.com/product/5450 which is a usbc pd to 12v dc barel jack
 
 PLAN:
-- 3x 18650s
+- 3x 18650s - ordered
 - need a 3s BMS
 - need a way to get 12v to the BMS
 - want to be able to plug any usbc charger in, and be able to charge quickly
-- so we need a buck/boost usbc that outputs 12v
+- so we need a bidirectional buck/boost usbc that outputs 12v
+    - full keywords: bidirectional usbc 3s
     - IP2368 https://old.reddit.com/r/18650masterrace/comments/1euw3zc/ip2368_breakout_board_external_power_output_not/
+    - IP5389
 
 - so the schematic is cells --> BMS <----> ip2368
                                        |
@@ -190,6 +192,16 @@ PLAN:
     - https://www.aliexpress.us/item/3256805900941544.html?gatewayAdapt=glo2usa4itemAdapt#nav-specification
     - but it only does boost, no buck
     - aparently this doesnt work correctly
+
+- battery case
+    - chamfers
+    - case screw holes
+    - hinge holes TODO: order longer screws!
+    - bottom case
+    - where to run battery wires?
+        - could maybe run them through the midcase wall/bottom in a trench depending on the width?
+        - could run them over the btrfld with a connector so the btrfld is removable?
+            - near the btrfld hinge perhaps? as a bonus, this gives us access to the battery wires
 
 ## Cooling - TODO
 - long, thin cooler that spans most of the width of the case?
