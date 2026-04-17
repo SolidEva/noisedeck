@@ -160,6 +160,10 @@ options i have explored are:
     - this limits the ipad to be just a display, uses standard display tech! no special software on the SBC required
     - need to be aware of input lag (hopefully minimal?)
 
+## TODO
+- bevel the edges of the lower topcase so it presses into the wrist less?
+    - could rotate or move trackpad to get more room to bevel?
+
 ## Battery - TODO
 
 - need some way to get 12v for the board
@@ -202,6 +206,7 @@ PLAN:
         - could maybe run them through the midcase wall/bottom in a trench depending on the width?
         - could run them over the btrfld with a connector so the btrfld is removable?
             - near the btrfld hinge perhaps? as a bonus, this gives us access to the battery wires
+            - the wires are ~3mm diameter
 
 ## Cooling - TODO
 - long, thin cooler that spans most of the width of the case?
