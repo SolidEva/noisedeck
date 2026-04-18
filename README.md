@@ -233,4 +233,3 @@ PLAN:
 ### TODO
     - fan screw supports/holes
     - cooling exhause slots
-    - cooling inlet slot
