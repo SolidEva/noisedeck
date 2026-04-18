@@ -231,5 +231,4 @@ PLAN:
             - https://www.digikey.de/en/products/detail/advanced-thermal-solutions-inc/ATS-1108-C1-R0/4146489
 
 ### TODO
-    - fan screw supports/holes
-    - cooling exhause slots
+    - order screws, m3x5mm for cooler, m2 for fan
