@@ -205,8 +205,13 @@ PLAN:
     - where to run battery wires?
         - could maybe run them through the midcase wall/bottom in a trench depending on the width?
         - could run them over the btrfld with a connector so the btrfld is removable?
-            - near the btrfld hinge perhaps? as a bonus, this gives us access to the battery wires
+            - near the btrfld hinge perhaps?
+                - need to stick a connector either in the battery pack, or in the noisedeck palmrest so we can remove the btrfld
+                    - ~35mm in
+                    - 4.75 from bottom
+                    - 10.2 wide 5.8 tall
             - the wires are ~3mm diameter
+            - the connectors are 5.2x10.2 mm
 
 ## Cooling - TODO
 - long, thin cooler that spans most of the width of the case?
@@ -224,3 +229,8 @@ PLAN:
         - if it does (we could thin out the bottom of the pencil charger): 6.87 tall, 67mm tall, ~160mm long
             - WENT WITH THIS
             - https://www.digikey.de/en/products/detail/advanced-thermal-solutions-inc/ATS-1108-C1-R0/4146489
+
+### TODO
+    - fan screw supports/holes
+    - cooling exhause slots
+    - cooling inlet slot
