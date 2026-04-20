@@ -160,11 +160,7 @@ options i have explored are:
     - this limits the ipad to be just a display, uses standard display tech! no special software on the SBC required
     - need to be aware of input lag (hopefully minimal?)
 
-## TODO
-- bevel the edges of the lower topcase so it presses into the wrist less?
-    - could rotate or move trackpad to get more room to bevel?
-
-## Battery - TODO
+## Battery
 
 - need some way to get 12v for the board
     - actually supports 9V~24V wide voltage input!
@@ -213,7 +209,7 @@ PLAN:
             - the wires are ~3mm diameter
             - the connectors are 5.2x10.2 mm
 
-## Cooling - TODO
+## Cooling
 - long, thin cooler that spans most of the width of the case?
     - fan
         - tip for fan control https://github.com/Joshua-Riek/ubuntu-rockchip/discussions/558
@@ -222,7 +218,6 @@ PLAN:
             - https://www.digikey.de/en/products/detail/wakefield-thermal-solutions/DB0620505H1A-BT0/12610355
                 - but this one is in stock
                 - WENT WITH THIS
-        - TODO: add slots to topcase lower to feed the blower fan
     - heatsink options
         - if it doesn't go over the pencil charging area: max size is 6.87 tall, 53mm wide, ~160mm long (variable)
             - https://www.digikey.de/en/products/detail/fischer-elektronik/SK-511-100-SA/25830853 6mm tall, 100mm long, 45 mm wide
@@ -232,3 +227,8 @@ PLAN:
 
 ### TODO
     - order screws, m3x5mm for cooler, m2 for fan
+    - order longer hinge screws to connect battery pack to laptop
+
+
+- 12.02
+- 198.94
