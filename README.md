@@ -186,7 +186,8 @@ PLAN:
                                        |
                                     controller
 
-- TODO can we fit an IP2368 board in the palmrest?
+- can we fit an IP2368 board in the palmrest?
+    - yea, i think so?
 
 - could use something like this
     - https://www.aliexpress.us/item/3256805900941544.html?gatewayAdapt=glo2usa4itemAdapt#nav-specification
@@ -209,6 +210,8 @@ PLAN:
             - the wires are ~3mm diameter
             - the connectors are 5.2x10.2 mm
 
+    - longer hinge screws to connect battery pack to laptop
+
 ## Cooling
 - long, thin cooler that spans most of the width of the case?
     - fan
@@ -225,10 +228,7 @@ PLAN:
             - WENT WITH THIS
             - https://www.digikey.de/en/products/detail/advanced-thermal-solutions-inc/ATS-1108-C1-R0/4146489
 
+    - screws, m3x5mm for cooler, m2 for fan
 ### TODO
-    - order screws, m3x5mm for cooler, m2 for fan
-    - order longer hinge screws to connect battery pack to laptop
-
-
-- 12.02
-- 198.94
+    - test if we can use a usbc extension on usbc battery charge board, otherwise have to put the battery charge board in the side of the midcase
+    - battery case bottom
