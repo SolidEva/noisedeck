@@ -81,17 +81,6 @@ pcb usb hub https://www.amazon.com/dp/B09FX4QN4J
 used to get a power only usbc port for charging the rpi battery: https://www.amazon.com/dp/B07VBV1PY5
 
 
-## Notes
-
-dac must have a power switch, otherwise the ipad will always use it by default and never allow usage of the speakers
-
-TODO:
-
-- holes in midcase/topcase and lid for latch(?)
-
-- extra keys in topcase for common hotkeys(?)
-- choc key one octave keyboard in topcase(?)
-
 
 ## Assembly notes
 
@@ -107,6 +96,8 @@ case:
   - superglue the case core into the ipad enclosure so that the ipad is held into the ipad enclosure magnetically
 
 - the 5000mah battery pack fits nicely under the dac.
+
+dac must have a power switch, otherwise the ipad will always use it by default and never allow usage of the speakers
 
 wiring:
 
@@ -197,7 +188,6 @@ PLAN:
 - battery case
     - chamfers
     - case screw holes
-    - hinge holes TODO: order longer screws!
     - bottom case
     - where to run battery wires?
         - could maybe run them through the midcase wall/bottom in a trench depending on the width?
@@ -229,6 +219,3 @@ PLAN:
             - https://www.digikey.de/en/products/detail/advanced-thermal-solutions-inc/ATS-1108-C1-R0/4146489
 
     - screws, m3x5mm for cooler, m2 for fan
-### TODO
-    - test if we can use a usbc extension on usbc battery charge board, otherwise have to put the battery charge board in the side of the midcase
-    - battery case bottom
